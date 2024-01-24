@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="ProjectStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Roboto&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Metrophobic&family=Oswald&family=Roboto&family=Sofia&display=swap" rel="stylesheet">  	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
+        <div class="container-fluid navigation">
+          <div class="navbar_offcanvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"><i class="fa fa-bars" aria-hidden="true"></i></div>
+          <img src="imgs/logo.png" height="30px" width="160px" class="mx-3">
+         
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About us.html">About us</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+
+         <i class="bi bi-search ms-auto"></i>  
+         <div class="desktop_icon">
+          <i class="bi bi-person person mx-2"></i>
+          <i class="bi bi-heart me-1"></i>
+         </div>          
+         <i class="bi bi-bag ms-2"></i>
+    </nav>
+
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="menu_login">
+              <div class="menu">
+            <i class="fa fa-bars" aria-hidden="true"></i> MENU
+            </div>
+          <div class="login">
+            <i class="bi bi-person"></i> LOGIN
+          </div>
+        </div>
+        <div class="navnames">
+           <p>HOME</p><i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        <div class="navnames">
+            <p>SHOP</p><i class="fa fa-angle-right" aria-hidden="true"></i>
+         </div>
+         <div class="navnames">
+            <p>CONTACT</p><i class="fa fa-angle-right" aria-hidden="true"></i>
+         </div>
+         <div class="button" data-bs-dismiss="offcanvas">Close</div>
+</div>
+
+                 <!--/////////////Section-A////////////////-->
+
+
+<div class="container-fluid shop-item">
+   <div id="nav"><a href="Home.html">Home</a><i class="fa fa-angle-right" aria-hidden="true"></i><span> Fresh Norwegian Salmon</span></div>
+    <div class="row p-5">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-0">
+        <img src="imgs/13.1.jpg" class="img-fluid mb-2">
+        <div>
+        <img src="imgs/13.1.jpg" height="153px" width="153px"class="mb-1">
+        <img src="imgs/14.1.jpg" height="153px" width="153px"class="mb-1">
+        <img src="imgs/14.2_compact.jpg" height="153px" width="153px"class="mb-1">
+        <img src="imgs/14.3_compact.jpg" height="153px" width="153px"class="mb-1">
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 shop-item_info">
+            <h4>Fresh Norwegian Salmon</h4>
+            <h5>$50.00 USD</h5>
+            <div class="reviews">
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <span class="mx-2">No reviews</span>
+            </div>
+            <hr class="mt-4">
+            <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the moment you read that final page, close the book, and reflect on the experience. You might find yourself at the last page faster than you thought—once you begin reading these...</p>
+            <h6><span>21</span> sold in last <span>24</span> Hour</h6>
+            <div class="in_stock">
+                <img src="imgs/fire.svg" height="30px" width="23px" class="mb-2">
+                <h5>HURRY! ONLY <span>21</span> LEFT IN STOCK</h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 70%" ></div>
+                  </div>
+            </div>
+            <b>Size guide</b> <b>Delivery & Return</b>  <b>Ask a Question</b>
+            <div class="info my-4">
+                <span>SIZE</span>
+                <p class="scale"> M</p>
+                <p class="scale1"> L</p>
+                <p class="scale1"> XL</p>
+                <div>
+                <input type="number" value="1">
+                <button>ADD TO CART</button>
+                </div>
+            </div>
+           <button>BUY IT NOW</button>
+           <hr>
+           <div class="real_time">
+               <p><strong>Real time <span>26</span> Visitor right now</strong></p>
+               <p>SKU :<span id="span"> Z1909-9</span id="span"></p>
+               <p>Categories <span id="span"> best seller, Home page, hot deal</span id="span"></p>
+           </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="Services d-flex">
+        <div class="text"><i class="bi bi-globe"></i><p>WORLDWIDE SHIPPING</p></div>
+        <div class="text"><i class="bi bi-box-seam"></i><p>FREE 60-DAY RETURNS</p></div>
+        <div class="text"><i class="bi bi-award"></i><p>24 MONTH WARRANTY</p></div>
+        <div class="text"><i class="bi bi-shield-check"></i><p>100% SECRUE CHECKOUT</p></div>
+    </div>
+</div>
+
+<nav class="Description">
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home">DESCRIPTION</button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile">ADDITIONAL INFORMATION</button>
+      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact">REVIEW</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home">
+        <div class="container">
+        <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the moment you read that final page, close the book, and reflect on the experience. You might find yourself at the last page faster than you thought—once you begin reading these books, you won’t be able to put them down.</p>
+         <div class="row">
+             <div class="col-5 p-0"><img src="imgs/prod_img.jpg" class="img-fluid"></div>
+             <div class="col-7">
+                 <span>BRAND</span>
+                 <p>With eye-catching artwork, step-by-step diagrams, and illustrations that break down complicated ideas into manageable concepts, The Science Book will have readers conversant in genetic engineering, black holes, and global warming in no time. Along the way are found mini-biographies of the most well-known scientists, and a glossary of helpful scientific terms. For students, and students of the world, there is no better way to explore the fascinating, strange, and mysterious world of science than in The Science Book.</p>
+             </div>          
+         </div>
+         <div class="row">
+             <div class="col-4">
+                <span>PRODUCT DETAILS</span>
+                <ul>
+                    <li>
+                        <p>You show me what is deep as sea</p>
+                    </li>
+                    <li>
+                        <p>Crew neck</p>
+                    </li> 
+                    <li>
+                        <p>Short sleeves</p>
+                    </li>
+                    <li>
+                        <p>Large logo print to chest</p>
+                    </li>
+                    <li>
+                        <p>Regular fit</p>
+                    </li>
+                    <li>
+                        <p>True size</p>
+                    </li>
+                </ul>
+             </div>
+             <div class="col-4">
+                <span>SIZE & FIT</span>
+                <ul>
+                    <li>
+                        <p>Model’s height: 182.5cm/6’0″</p>
+                    </li>
+                    <li>
+                        <p>Model is wearing: Size Medium</p>
+                    </li> 
+                </ul>
+             </div>
+             <div class="col-4">
+                <span>ABOUT ME</span>
+                <ul>
+                    <li>
+                        <p>Soft, breathable jersey</p>
+                    </li>
+                    <li>
+                        <p>T-shirt fabric</p>
+                    </li> 
+                    <li>
+                        <p>Main: 95% Cotton, 5% Elastane</p>
+                    </li>
+                </ul>
+             </div>
+         </div>
+
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-5 p-0">
+                <div class="inline">
+                    <p id="small">MORE INFOMATION TO YOU</p>
+                    <h4>Things You Need To Know</h4>
+                    <hr>
+                    <p class="mb-4">We use industry standard SSL encryption to <br> protect your details. Potentially sensitive <br> information such as your name, address and <br> card details are encoded so they can only be <br> read on the secure server.</p>
+                    <p>Safe Payments</p>
+                    <p>Accept Credit Cart</p>
+                    <p>Different Payment Method</p>
+                    <p>Price Include VAT</p>
+                    <p>Easy To Order</p>
+                </div>
+                <div class="inline2">
+                    <h6 class="my-3">Express Delivery</h6>
+                    <p>Europe & USA within 2-4 days</p>
+                    <p>Rest of the world within 3-7 days</p>
+                    <p class="mb-5">Selected locations</p>
+
+                    <h6 class="my-3">Need More Information</h6>
+                    <p>Orders & Shipping</p>
+                    <p>Returns & Refunds</p>
+                    <p>Payments</p>
+                </div>
+                </div>
+                <div class="col-6">
+                    <img src="imgs/13.1.jpg" class="img-fluid mt-3 me-3">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <h6>CUSTOMER REVIEWS</h6>
+                   <hr>
+                   <p>No reviews yet</p>
+                </div>
+                <div class="col-4">
+                   <span>Write a review</span>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<ul class="media">
+    <li class="i"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+    <li class="i"><i class="fa fa-facebook" aria-hidden="true"></i></li>
+    <li class="i"><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+</ul>
+
+<div class="Related_Products">
+    <div class="text-center"><h1>Related Products NEWS</h1></div>
+    
+    <div id="carouselExampleControlsD" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner p-5">
+            <div class="carousel-item active">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-3"> 
+                    <div class="Product">
+                        <div class="img_">
+                            <img src="imgs/8.1_grande.jpg" class="img-fluid">
+                            <div class="new">NEW</div>
+                            <div class="sales">SALE</div> 
+                            <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Whislist"><i class="bi bi-heart"></i></div>
+                            <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Select option"><i class="bi bi-three-dots"></i></div>
+                            <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Quickview"><i class="bi bi-search"data-bs-toggle="modal" data-bs-target="#exampleModal_6"></i></div>
+                        </div>
+                        <div class="reviews">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <span class="mx-2">No reviews</span>
+                        </div>
+                        <p>Veal Bone/Less (Fresh)</p>
+                        <div class="Price">$25.00 <span>$100.00</span></div>
+                    </div>
+                </div>
+                    <div class="col Bonless">
+                        <div class="Product">
+                            <div class="img_">
+                                <img src="imgs/7.1.jpg" class="img-fluid">
+                                <div class="new">NEW</div>
+                                <!-- <div class="sales">SALE</div>  -->
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Whislist"><i class="bi bi-heart"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Select option"><i class="bi bi-three-dots"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Quickview"><i class="bi bi-search"data-bs-toggle="modal" data-bs-target="#exampleModal_7"></i></div>
+                            </div>
+                            <div class="reviews">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="mx-2">No reviews</span>
+                            </div>
+                            <p>Chicken Bonless</p>
+                            <div class="Price">$35.00</div>
+                        </div>                
+                    </div>
+                    <div class="col Steak">
+                        <div class="Product ">
+                            <div class="img_">
+                                <img src="imgs/9.1_grande.jpg" class="img-fluid">
+                                <div class="new">NEW</div>
+                                <!-- <div class="sales">SALE</div>  -->
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Whislist"><i class="bi bi-heart"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Select option"><i class="bi bi-three-dots"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Quickview"><i class="bi bi-search"data-bs-toggle="modal" data-bs-target="#exampleModal_5"></i></div>
+                            </div>
+                            <div class="reviews">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="mx-2">No reviews</span>
+                            </div>
+                            <p>Scottish Salmon Steak</p>
+                            <div class="Price">$30.00</div>
+                        </div>     
+                    </div>
+                    <div class="col">
+                        <div class="Product Fillets">
+                            <div class="img_">
+                                <img src="imgs/10.1_grande.jpg" class="img-fluid">
+                                <div class="new">NEW</div>
+                                <!-- <div class="sales">SALE</div>  -->
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Whislist"><i class="bi bi-heart"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Select option"><i class="bi bi-three-dots"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Quickview"><i class="bi bi-search"data-bs-toggle="modal" data-bs-target="#exampleModal_4"></i></div>
+                            </div>
+                            <div class="reviews">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="mx-2">No reviews</span>
+                            </div>
+                            <p>Norwegian Salmon Fillets</p>
+                            <div class="Price">$100.00</div>
+                        </div>                
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-3 Steak">
+                        <div class="Product">
+                            <div class="img_">
+                                <img src="imgs/9.1_grande.jpg" class="img-fluid">
+                                <div class="new">NEW</div>
+                                <!-- <div class="sales">SALE</div>  -->
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Whislist"><i class="bi bi-heart"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Select option"><i class="bi bi-three-dots"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Quickview"><i class="bi bi-search"data-bs-toggle="modal" data-bs-target="#exampleModal_5"></i></div>
+                            </div>
+                            <div class="reviews">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="mx-2">No reviews</span>
+                            </div>
+                            <p>Scottish Salmon Steak</p>
+                            <div class="Price">$30.00</div>
+                        </div>     
+                    </div>
+                    <div class="col-3 Bonless">
+                        <div class="Product">
+                            <div class="img_">
+                                <img src="imgs/7.1.jpg" class="img-fluid">
+                                <div class="new">NEW</div>
+                                <!-- <div class="sales">SALE</div>  -->
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Whislist"><i class="bi bi-heart"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Select option"><i class="bi bi-three-dots"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Quickview"><i class="bi bi-search"data-bs-toggle="modal" data-bs-target="#exampleModal_7"></i></div>
+                            </div>
+                            <div class="reviews">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="mx-2">No reviews</span>
+                            </div>
+                            <p>Chicken Bonless</p>
+                            <div class="Price">$35.00</div>
+                        </div>                
+                    </div>
+                    <div class="col-3"> 
+                        <div class="Product">
+                            <div class="img_">
+                                <img src="imgs/8.1_grande.jpg" class="img-fluid">
+                                <div class="new">NEW</div>
+                                <div class="sales">SALE</div> 
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Whislist"><i class="bi bi-heart"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Select option"><i class="bi bi-three-dots"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Quickview"><i class="bi bi-search"data-bs-toggle="modal" data-bs-target="#exampleModal_6"></i></div>
+                            </div>
+                            <div class="reviews">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="mx-2">No reviews</span>
+                            </div>
+                            <p>Veal Bone/Less (Fresh)</p>
+                            <div class="Price">$25.00 <span>$100.00</span></div>
+                        </div>
+                    </div>
+                     <div class="col-3">
+                        <div class="Product Fillets">
+                            <div class="img_">
+                                <img src="imgs/10.1_grande.jpg" class="img-fluid">
+                                <div class="new">NEW</div>
+                                <!-- <div class="sales">SALE</div>  -->
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Whislist"><i class="bi bi-heart"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Select option"><i class="bi bi-three-dots"></i></div>
+                                <div class="icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Quickview"><i class="bi bi-search"data-bs-toggle="modal" data-bs-target="#exampleModal_4"></i></div>
+                            </div>
+                            <div class="reviews">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="mx-2">No reviews</span>
+                            </div>
+                            <p>Norwegian Salmon Fillets</p>
+                            <div class="Price">$100.00</div>
+                        </div>                
+                    </div>
+                </div>  
+            </div>
+        </div> 
+        <div class="carousel-control-prev controler"  data-bs-target="#carouselExampleControlsD" data-bs-slide="prev">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+        </div>
+        <div class="carousel-control-next controler"  data-bs-target="#carouselExampleControlsD" data-bs-slide="next">
+          <i class="fa fa-angle-right" aria-hidden="true"></i>  
+        </div>
+      </div>
+    </div>
+
+    
+    <!--             //////// Products Modal ///////                  -->
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body d-flex">
+            <div class="imgs">
+                <img src="imgs/14.1.jpg" height="365x" width="365px" class="mb-3">
+                <img src="imgs/14.1.jpg" height="115px" width="115px" class="mx-1">
+                <img src="imgs/14.2_compact.jpg" height="115px" width="115px"class="mx-1">
+                <img src="imgs/14.3_compact.jpg" height="115px" width="115px"class="mx-1">
+            </div>
+             <div class="info">
+                 <h4>Lobster Tail</h4>
+                 <p>$75.00 USD</p>
+                 <hr class="my-4">
+                 <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the...</p>
+                 <span>SIZE</span>
+                 <p class="scale"> S</p>
+                 <p class="scale1"> M</p>
+                 <div>
+                 <input type="number" value="1">
+                 <button>ADD TO CART</button>
+                 </div>
+             </div>
+        </div>
+      </div>  
+    </div>    
+</div>
+
+
+<div class="modal fade" id="exampleModal_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body d-flex">
+            <div class="imgs">
+                <img src="imgs/13.1.jpg" height="365x" width="365px" class="mb-3">
+                <img src="imgs/13.1.jpg" height="115px" width="115px" class="mx-1">
+                <img src="imgs/14.1.jpg" height="115px" width="115px"class="mx-1">
+                <img src="imgs/14.2_compact.jpg" height="115px" width="115px"class="mx-1">
+            </div>
+             <div class="info">
+                 <h4>Fresh Norwegian Salmon</h4>
+                 <p>$50.00 USD</p>
+                 <hr class="my-4">
+                 <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the...</p>
+                 <span>SIZE</span>
+                 <p class="scale"> S</p>
+                 <p class="scale1"> M</p>
+                 <div>
+                 <input type="number" value="1">
+                 <button>ADD TO CART</button>
+                 </div>
+             </div>
+        </div>
+      </div>  
+    </div>    
+</div>
+
+
+<div class="modal fade" id="exampleModal_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body d-flex">
+            <div class="imgs">
+                <img src="imgs/12.1_grande.jpg" height="365x" width="365px" class="mb-3">
+                <img src="imgs/12.1_grande.jpg" height="115px" width="115px" class="mx-1">
+                <img src="imgs/14.1.jpg" height="115px" width="115px"class="mx-1">
+                <img src="imgs/13.1.jpg" height="115px" width="115px"class="mx-1">
+            </div>
+             <div class="info">
+                 <h4>Imported Salami</h4>
+                 <p>$215.00 USD</p>
+                 <hr class="my-4">
+                 <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the...</p>
+                 <span>SIZE</span>
+                 <p class="scale"> S</p>
+                 <p class="scale1"> M</p>
+                 <div>
+                 <input type="number" value="1">
+                 <button>ADD TO CART</button>
+                 </div>
+             </div>
+        </div>
+      </div>  
+    </div>    
+</div>
+
+
+<div class="modal fade" id="exampleModal_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body d-flex">
+            <div class="imgs">
+                <img src="imgs/11.1.jpg" height="365x" width="365px" class="mb-3">
+                <img src="imgs/11.1.jpg" height="115px" width="115px" class="mx-1">
+                <img src="imgs/12.1_grande.jpg" height="115px" width="115px"class="mx-1">
+                <img src="imgs/13.1.jpg" height="115px" width="115px"class="mx-1">
+            </div>
+             <div class="info">
+                 <h4>Fresh Mackerel</h4>
+                 <p>$65.00 USD</p>
+                 <hr class="my-4">
+                 <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the...</p>
+                 <span>SIZE</span>
+                 <p class="scale"> S</p>
+                 <p class="scale1"> M</p>
+                 <div>
+                 <input type="number" value="1">
+                 <button>ADD TO CART</button>
+                 </div>
+             </div>
+        </div>
+      </div>  
+    </div>    
+</div>
+
+
+<div class="modal fade" id="exampleModal_4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body d-flex">
+            <div class="imgs">
+                <img src="imgs/10.1_grande.jpg" height="365x" width="365px" class="mb-3">
+                <img src="imgs/10.1_grande.jpg" height="115px" width="115px" class="mx-1">
+                <img src="imgs/9.1_grande.jpg" height="115px" width="115px"class="mx-1">
+                <img src="imgs/13.1.jpg" height="115px" width="115px"class="mx-1">
+            </div>
+             <div class="info">
+                 <h4>Norwegian Salmon Fillets</h4>
+                 <p>$100.00 USD</p>
+                 <hr class="my-4">
+                 <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the...</p>
+                 <span>SIZE</span>
+                 <p class="scale"> S</p>
+                 <p class="scale1"> M</p>
+                 <div>
+                 <input type="number" value="1">
+                 <button>ADD TO CART</button>
+                 </div>
+             </div>
+        </div>
+      </div>  
+    </div>    
+</div>
+
+
+<div class="modal fade" id="exampleModal_5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body d-flex">
+            <div class="imgs">
+                <img src="imgs/9.1_grande.jpg" height="365x" width="365px" class="mb-3">
+                <img src="imgs/9.1_grande.jpg" height="115px" width="115px" class="mx-1">
+                <img src="imgs/10.1_grande.jpg" height="115px" width="115px"class="mx-1">
+                <img src="imgs/13.1.jpg" height="115px" width="115px"class="mx-1">
+            </div>
+             <div class="info">
+                 <h4>Norwegian Salmon Fillets</h4>
+                 <p>$100.00 USD</p>
+                 <hr class="my-4">
+                 <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the...</p>
+                 <span>SIZE</span>
+                 <p class="scale"> S</p>
+                 <p class="scale1"> M</p>
+                 <div>
+                 <input type="number" value="1">
+                 <button>ADD TO CART</button>
+                 </div>
+             </div>
+        </div>
+      </div>  
+    </div>    
+</div>
+
+
+<div class="modal fade" id="exampleModal_6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body d-flex">
+            <div class="imgs">
+                <img src="imgs/8.1_grande.jpg" height="365x" width="365px" class="mb-3">
+                <img src="imgs/8.1_grande.jpg" height="115px" width="115px" class="mx-1">
+                <img src="imgs/14.2_compact.jpg" height="115px" width="115px"class="mx-1">
+                <img src="imgs/13.1.jpg" height="115px" width="115px"class="mx-1">
+            </div>
+             <div class="info">
+                 <h4>Veal Bone/Less (Fresh)</h4>
+                 <p>$25.00 USD</p>
+                 <hr class="my-4">
+                 <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the...</p>
+                 <span>SIZE</span>
+                 <p class="scale"> S</p>
+                 <p class="scale1"> M</p>
+                 <div>
+                 <input type="number" value="1">
+                 <button>ADD TO CART</button>
+                 </div>
+             </div>
+        </div>
+      </div>  
+    </div>    
+</div>
+
+
+<div class="modal fade" id="exampleModal_7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body d-flex">
+            <div class="imgs">
+                <img src="imgs/7.1.jpg" height="365x" width="365px" class="mb-3">
+                <img src="imgs/7.1.jpg" height="115px" width="115px" class="mx-1">
+                <img src="imgs/13.1.jpg" height="115px" width="115px"class="mx-1">
+                <img src="imgs/9.1_grande.jpg" height="115px" width="115px"class="mx-1">
+            </div>
+             <div class="info">
+                 <h4>Chicken Bonless</h4>
+                 <p>$35.00 USD</p>
+                 <hr class="my-4">
+                 <p>Being able to read a novel in another language and understand it is a huge achievement. You’ll feel accomplished the...</p>
+                 <span>SIZE</span>
+                 <p class="scale"> S</p>
+                 <p class="scale1"> M</p>
+                 <div>
+                 <input type="number" value="1">
+                 <button>ADD TO CART</button>
+                 </div>
+             </div>
+        </div>
+      </div>  
+    </div>    
+</div>
+
+
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+
+    <!--             //////// Products Modal ///////                  -->
+
+
+
+<!--                /////////FOOTER//////////                -->
+
+<div class="container-fluid">
+    <div class="row Footer">
+        <div class="col-lg-3 col-md-12 my-5">
+            <img src="imgs/logo.png" height="30px" width="160px">
+            <p class="my-3">Subscribe our newsletter and get <br>
+                discount 30% off</p>   
+            <input type="email" placeholder="Your email address...">  
+            <button id="Plane"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            </button>
+            <div>
+            <i class="fa fa-twitter mx-3" aria-hidden="true"></i>  
+            <i class="fa fa-futbol-o mx-3" aria-hidden="true"></i>
+            <i class="fa fa-behance mx-3" aria-hidden="true"></i>
+            <i class="fa fa-instagram mx-3" aria-hidden="true"></i> 
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 my-3 border-fit">
+            <h5>Customer Care</h5>
+            <hr>
+            <div class="p">
+                <p>Pagination</p>
+                <p>Home page</p>
+                <p>Contact</p>
+                <p>Accessories</p>
+                <p>Term of use</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 my-3 border-fit">
+            <h5>Quick Shop</h5>
+            <hr>
+            <div class="p">
+                <p>About Us</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Products Return</p>
+                <p>Wholesale Policy</p>
+             </div>
+            </div>
+        <div class="col-lg-3 col-md-4 my-3 border-fit">
+            <h5>Company</h5>
+            <hr>
+            <div class="p">
+                <p>Help Center</p>
+                <p>Address Store</p>
+                <p>Privacy Policy</p>
+                <p>Receivers & Amplifiers</p>
+                <p>LarineStore</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--                /////////FOOTER//////////                -->
+
+    
+
+
+</div>
+
+  
+</body>
+</html>
